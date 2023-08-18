@@ -136,13 +136,3 @@ cd project_asclepius
 ## Contribute
 
 We welcome contributions! Whether it's improving documentation, adding new features, or providing feedback, your input is valuable. Please see `CONTRIBUTING.md` for details on how you can help out.
-
----
-
-<div align="center">
-  <h4>
-    <a href="https://YOUR_PROJECT_WEBSITE">Project Website</a> |
-    <a href="https://twitter.com/YOUR_TWITTER">Twitter</a> |
-    <a href="https://www.linkedin.com/YOUR_LINKEDIN">LinkedIn</a>
-  </h4>
-</div>
