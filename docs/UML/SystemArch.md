@@ -4,22 +4,23 @@ package "Frontend (NextJS)" {
   [User] --> [Frontend]
 }
 
-database "Rust Visualization Database (GraphQL)" as DB1 {
-  [Data & Visualization Service (Rust)] --> DB1
-  [Frontend] --> [Data & Visualization Service (Rust)]
+[Frontend] <..> [Data & Visualization Service (Rust)] : GraphQL
+[Frontend] --> [Authorization Service (NGAC, Rust)]
+[Frontend] --> [Real-time Collaboration Service (Go)]
+
+database "Rust Visualization Database" as DB1 {
 }
 
-database "Rust Authorization Database (gRPC)" as DB2 {
-  [Authorization Service (NGAC, Rust)] --> DB2
-  [Frontend] --> [Authorization Service (NGAC, Rust)]
+database "Rust Authorization Database" as DB2 {
 }
 
-database "Go Collaboration Database (gRPC)" as DB3 {
-  [Real-time Collaboration Service (Go)] --> DB3
-  [Frontend] --> [Real-time Collaboration Service (Go)]
+database "Go Collaboration Database" as DB3 {
 }
 
-[Frontend] --> [gRPC Service]
+[Data & Visualization Service (Rust)] --> DB1
+[Authorization Service (NGAC, Rust)] --> DB2
+[Real-time Collaboration Service (Go)] --> DB3
+
 [Data & Visualization Service (Rust)] --> [gRPC Service]
 [Authorization Service (NGAC, Rust)] --> [gRPC Service]
 [Real-time Collaboration Service (Go)] --> [gRPC Service]
