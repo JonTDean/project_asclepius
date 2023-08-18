@@ -1,7 +1,6 @@
 @startuml
 
 ' Styles for WBS
-skinparam handwritten true
 skinparam wbsDiagram {
   BackgroundColor #FCF3CF
   ArrowColor #F39C12
