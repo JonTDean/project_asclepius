@@ -1,9 +1,11 @@
 [submodule "hygieia_vision"]
 	path = hygieia_vision
 	url = git@github.com:JonTDean/project_hygieia.git
+
 [submodule "epione_guard"]
 	path = epione_guard
 	url = git@github.com:JonTDean/project_epione.git
+
 [submodule "machaeon_sync"]
 	path = machaeon_sync
 	url = git@github.com:JonTDean/project_machaeon.git
