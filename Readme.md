@@ -103,12 +103,35 @@ cd project_asclepius
 
 ## Future Milestones
 
-- **Enhanced Collaboration Features:** Introduce document sharing, whiteboarding, and annotation functionalities.
-- **Advanced Data Analysis Tools:** Incorporate AI-driven insights for PK/PD data interpretation.
-- **User Profiles and Customization:** Allow users to customize their dashboard, save visualization templates, and set preferences.
-- **Integration with External Data Sources:** Facilitate data import from popular bio-analysis tools and platforms.
-- **Mobile Support:** Develop a responsive design or mobile application for on-the-go access.
-- **API Development:** Offer public APIs for third-party integrations and extensions.
+### Enhanced Collaboration Features
+- **What:** Introduce document sharing, whiteboarding, and annotation functionalities.
+- **How:** Implement a real-time collaboration layer using WebSocket or similar technologies. Use libraries like [TogetherJS](https://togetherjs.com/) or [yjs](https://y-js.org/) for collaborative editing.
+- **Why:** To offer users a seamless experience in sharing and jointly analyzing data without switching between tools.
+
+### Advanced Data Analysis Tools
+- **How:** Integrate machine learning libraries or platforms like TensorFlow or PyTorch. Develop models tailored for bio-analysis data.
+- **Why:** To provide users with deeper insights, predictive analytics, and guided interpretation of complex data.
+
+### User Profiles and Customization
+- **What:** Allow users to customize their dashboard, save visualization templates, and set preferences.
+- **How:** Create a user profile system with settings that impact the UI/UX. Use a database to store user preferences and templates.
+- **Why:** To give users a personalized experience and save time by using previously saved visualization templates.
+
+### Integration with External Data Sources
+- **What:** Facilitate data import from popular bio-analysis tools and platforms.
+- **How:** Develop connectors or use APIs provided by popular bio-analysis platforms to fetch data into the system.
+- **Why:** To reduce manual data entry, streamline workflows, and support a wider range of data sources for users.
+
+### Mobile Support
+- **What:** Develop a responsive design or mobile application for on-the-go access.
+- **How:** Optimize the existing web application using frameworks like Bootstrap for responsiveness or consider building native apps using Flutter or React Native.
+- **Why:** To provide users with access to their data and collaboration tools from any device, anywhere.
+
+### API Development
+- **What:** Offer public APIs for third-party integrations and extensions.
+- **How:** Use tools like Swagger for API documentation. Ensure APIs follow the RESTful principles and are secured using OAuth or similar protocols.
+- **Why:** To foster a developer community around the platform and allow for broader integrations and extensions, enhancing the platform's capabilities.
+
 
 ## Contribute
 
