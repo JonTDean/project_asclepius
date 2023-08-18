@@ -43,21 +43,6 @@ The PK/PD Data Visualization & Analysis Platform is designed for bio companies t
 - **Next-Gen Access Control:** Implementing NGAC for advanced authorization and access control.
 - **GraphQL & gRPC Support:** Flexible querying with GraphQL for visualization and efficient real-time collaboration using gRPC.
 
-## Installation
-
-Instructions on how to set up and run the platform. Include necessary commands, environmental setup, etc.
-
-```bash
-# Clone the repository
-git clone https://github.com/JonTDean/project_asclepius.git
-
-# Navigate to directory
-cd project_asclepius
-
-# Install dependencies and setup
-... [other necessary commands]
-```
-
 ## Technologies Used
 
 ### Frontend:
