@@ -1,15 +1,15 @@
 <h1 align="center">
-  <a name="logo" href="https://github.com/JonTDean/YourRepoName"><img src="URL_TO_YOUR_PROJECT_LOGO" alt="Project Asclepius" width="200"></a>
+  <a name="logo" href="https://github.com/JonTDean/project_asclepius"><img src="URL_TO_YOUR_PROJECT_LOGO" alt="Project Asclepius" width="200"></a>
   <br>
   A PK/PD Data Visualization & Analysis Platform
 </h1>
 <h4 align="center">🔬 Real-time collaboration for bio-analysis data 📊</h4>
 <p align="center">
-  <a href="https://github.com/JonTDean/YourRepoName/commits/master">
+  <a href="https://github.com/JonTDean/project_asclepius/commits/main">
     <img src="./docs/UML/SystemArch.png" alt="Last Commit" />
   </a>
   <!-- Similarly, adjust the next image reference as per your needs -->
-  <a href="https://github.com/JonTDean/YourRepoName/commits/master">
+  <a href="https://github.com/JonTDean/project_asclepius/commits/main">
     <img src="./docs/UML/SystemArch.png" alt="Commit Activity" />
   </a>
 </p>
@@ -44,10 +44,10 @@ Instructions on how to set up and run the platform. Include necessary commands, 
 
 ```bash
 # Clone the repository
-git clone https://github.com/JonTDean/YourRepoName.git
+git clone https://github.com/JonTDean/project_asclepius.git
 
 # Navigate to directory
-cd YourRepoName
+cd project_asclepius
 
 # Install dependencies and setup
 ... [other necessary commands]
