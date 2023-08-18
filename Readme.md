@@ -1,16 +1,21 @@
-<h1 align="center">
-  <a name="logo" href="https://github.com/JonTDean/project_asclepius"><img src="URL_TO_YOUR_PROJECT_LOGO" alt="Project Asclepius" width="200"></a>
-  <br>
-  A PK/PD Data Visualization & Analysis Platform
-</h1>
-<h4 align="center">🔬 Real-time collaboration for bio-analysis data 📊</h4>
+<div align="center">
+  <a name="logo" href="https://github.com/JonTDean/project_asclepius"><img src="media/logo.svg" alt="Project Asclepius" width="50"></a>
+  <div>
+    <!-- Title -->
+    <h2>Project Asclepius</h2>
+    <!-- Subtitles -->
+    <div>
+      <h3>A PK/PD Data Visualization & Analysis Platform</h3>
+      <h4 align="center">🔬 Real-time collaboration for bio-analysis data 📊</h4>
+    </div>
+  </div>
+</div>
 <p align="center">
   <a href="https://github.com/JonTDean/project_asclepius/commits/main">
-    <img src="./docs/UML/SystemArch.png" alt="Last Commit" />
+    <img src="https://img.shields.io/github/last-commit/JonTDean/project_asclepius.svg?style=plastic" alt="Last Commit" />
   </a>
-  <!-- Similarly, adjust the next image reference as per your needs -->
   <a href="https://github.com/JonTDean/project_asclepius/commits/main">
-    <img src="./docs/UML/SystemArch.png" alt="Commit Activity" />
+    <img src="https://img.shields.io/github/commit-activity/y/JonTDean/project_asclepius.svg?style=plastic" alt="Commit Activity" />
   </a>
 </p>
 
